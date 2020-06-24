@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" type="image/png" href="img/favico.png" sizes="32x32">
+    <script src="https://kit.fontawesome.com/f6657cc0bb.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
+    
+    <title>Akato Sushi || Ubicacion</title>
+</head>
+<body>
+  <header>
+    <address>
+      <div id="telefono">
+        <a  href="tel:+56229049594">+56 229049594</a><span></span>
+        <a  href="https://api.whatsapp.com/send?phone=56990926074">+569 90926074</a>
+      </div>
+      <div id="direccion">
+        <a  href="#">Av. Central Gonzalo Perez Llona #263, Maipú</a>
+      </div>
+    </address>
+    <div id="barra"></div>
+  </header>
+  <nav>
+    <div class="menu">
+      <a class="menu-item" href="index.html">Inicio</a>
+      <a class="menu-item" href="promociones.html">Promociones</a>
+      <a href="index.html">
+        <picture>
+          <source srcset="img/logo.webp" type="image/webp">
+          <source srcset="img/logo.png" type="image/png"> 
+            <img id="logo-menu" src="img/logo.png" alt="Logo Akato">
+        </picture>
+      </a>
+      <a class="menu-item" href="carta.html">Carta</a>
+      <a class="menu-item select-menu" href="ubicacion.html">Ubicacion</a>
+    </div>
+    <div class="menu2">
+      <a href="index.html">
+        <picture>
+          <source srcset="img/logo.webp" type="image/webp">
+          <source srcset="img/logo.png" type="image/png"> 
+            <img id="logo-menu2" src="img/logo.png" alt="Logo Akato">
+      </picture>
+     </a>
+      <a href="#" id="ico-menu" class="icon" onclick="menu()">
+        <i class="fas fa-bars fa-2x" alt="Menu"></i>
+      </a>
+      <div id="menu2-select">
+        <a href="index.html" >Inicio</a>
+        <a href="promociones.html">Promociones</a>
+        <a href="carta.html" >Carta</a>
+        <a href="ubicacion.html" class="select">Ubicacion</a>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div id="contenido-ubicacion">
+      <h1>Av. Central Gonzalo Perez Llona #263, Maipú, Santiago</h1>
+      <div id="map-pc">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.0409775533985!2d-70.75662348531473!3d-33.500310980759586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c32e76100001%3A0xfc14dd573b23739f!2sAkato%20Sushi!5e0!3m2!1ses-419!2scl!4v1582995884399!5m2!1ses-419!2scl"  frameborder="0"  allowfullscreen=""></iframe>
+      </div>
+      <div id="map-movil"></div>
+    </div>
+  </main>
+  <footer>
+    <div id="separacion"></div>
+    <div class="contenido-footer">
+      <div id="contacto">
+        <h1>Contacto</h1>
+        <h4><a  href="tel:+56229049594">Telefono +562 29049594</a></h4>
+        <h4><a  href="https://api.whatsapp.com/send?phone=56990926074">WhatsApp +569 90926074</a></h4>
+        <h1>Dirección</h1>
+        <h4><a  href="https://g.page/akato-sushi">Av. Central Gonzalo Perez Llona #263, Maipú </a></h4>
+
+      </div>
+      <div id="contacto2" class="oculto">
+        <h1>Contacto</h1>
+        <h4><a  href="tel:+56229049594">Telefono <br> +562 29049594</a></h4>
+        <h4><a  href="https://api.whatsapp.com/send?phone=56990926074">WhatsApp <br> +569 90926074</a></h4>
+      </div>
+      <div id="direccion2" class="oculto">
+        <h1>Dirección</h1>
+        <h4><a  href="https://g.page/akato-sushi">Av. Central Gonzalo Perez Llona #263, Maipú </a></h4>
+      </div>
+      <div id="redes">
+        <h1>Redes Sociales</h1>
+        <a href="https://www.facebook.com/Akato-218328784900844"><i class="fab fa-facebook-square" alt="Facebook"></i></a>
+        <a href="https://www.instagram.com/akatosushi_/"><i class="fab fa-instagram-square" alt="Instagram"></i></a> 
+      </div>
+      <div id="horario">
+        <h1>Horario</h1>
+        <h4>Lunes a Jueves de 12:00 a 00:00 <br>
+          Viernes y Sabados de 12:00 a 01:00 <br>
+          Domingo de 12:00 a 23:00
+      </h4>
+      </div>
+      <div id="copy">Akato Sushi © 2020 Diseñado por Francisco Grandon</div>
+    </div>
+  </footer>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

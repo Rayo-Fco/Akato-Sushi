@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" type="image/png" href="img/favico.png" sizes="32x32">
+    <script src="https://kit.fontawesome.com/f6657cc0bb.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
+    
+    <title>Akato Sushi || Carta </title>
+</head>
+<body>
+  <header>
+    <address>
+      <div id="telefono">
+        <a  href="tel:+56229049594">+56 229049594</a><span></span>
+        <a  href="https://api.whatsapp.com/send?phone=56990926074">+569 90926074</a>
+      </div>
+      <div id="direccion">
+        <a  href="#">Av. Central Gonzalo Perez Llona #263, Maipú</a>
+      </div>
+    </address>
+    <div id="barra"></div>
+  </header>
+  <nav>
+    <div class="menu">
+      <a class="menu-item" href="index.html">Inicio</a>
+      <a class="menu-item" href="promociones.html">Promociones</a>
+      <a href="index.html">
+        <picture>
+          <source srcset="img/logo.webp" type="image/webp">
+          <source srcset="img/logo.png" type="image/png"> 
+            <img id="logo-menu" src="img/logo.png" alt="Logo Akato">
+        </picture>
+      </a>
+      <a class="menu-item select-menu" href="carta.html">Carta</a>
+      <a class="menu-item" href="ubicacion.html">Ubicacion</a>
+      
+    </div>
+    <div class="menu2">
+      <a href="index.html">
+        <picture>
+          <source srcset="img/logo.webp" type="image/webp">
+          <source srcset="img/logo.png" type="image/png"> 
+            <img id="logo-menu2" src="img/logo.png" alt="Logo Akato">
+        </picture>
+      </a>
+      <a href="#" id="ico-menu" class="icon" onclick="menu()">
+        <i class="fas fa-bars fa-2x" alt="Menu"></i>
+      </a>
+      <div id="menu2-select">
+        <a href="index.html" >Inicio</a>
+        <a href="promociones.html">Promociones</a>
+        <a href="carta.html" class="select">Carta</a>
+        <a href="ubicacion.html">Ubicacion</a>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div id="menu-carta">
+      <button id="btn-ant">Anterior</button>
+      <button id="btn-sig">Siguiente</button>
+    </div>
+    <div id="contenido-carta">
+      
+      <div id="a-carta" class="grid-carta">
+        <div class="carta" id="carta-1">
+
+          <div class="titulo-carta">Nigiri <span>(2 unidades)</span>  $2.300</div>
+          <div class="detalle-carta">
+            <p><b>001- Nigiri Sake </b>- Bolita de Arroz con fina lamina de Salmon </p>
+            <p><b>002- Nigiri Ebi </b>- Bolita de Arroz con Camaron Ecuatoriano </p>
+            <p><b>003- Nigiri Abocado</b>- Bolita de Arroz con Queso Crema </p>
+            <p><b>004- Nigiri Unagi</b>- Bolita de Arroz con Queso Crema y fina lamina <br> de Salmon y Palta </p>
+            <p><b>005- Nigiri Maguro</b>- Bolita de Arroz con fina lamina de Atun </p>
+            <p><b>006- Nigiri Tako</b>- Bolita de Arroz con fina lamina de Pulpo </p>
+            <p><b>007- Nigiri Choclito</b>- Bolita de Arroz con fina lamina de Choclito <br> Cocktail</p>
+            <p><b>008- Nigiri Palmito</b>- Bolita de Arroz con fina lamina de Palmito</p>
+          </div>
+            <br>
+            <br>
+          <div class="titulo-carta">Sashimi <span>(9 cortes)</span>  $5.000</div>
+          <div class="detalle-carta">
+            <p><b>009- Sake</b>- Cortes de Salmon </p>
+            <p><b>010- Tako</b>- Cortes de Pulpo</p>
+            <p><b>011- Maguro</b>- Cortes de Atun</p>
+            <p><b>012- Cortes del Chef</b>- Pescado del Dia</p>
+          </div>
+
+        </div>
+        <div class="carta" id="carta-2">
+          
+          <div class="titulo-carta">Hosomaki <span>(6 unidades)</span>  $2.500</div>
+          <div class="detalle-carta">
+            <p><b>013- Sake Maki</b>- Salmon y Arroz envuelto en Nori</p>
+            <p><b>014- Palta Maki</b>- Palta y Arroz envuelto en Nori</p>
+            <p><b>015- Natu Maki</b>- Palmito, Palta y Arroz envuelto en Nori</p>
+            <p><b>016- Kani Maki</b>- Kanikama y Arroz envuelto en Nori</p>
+            <p><b>017- Ebi Maki</b>- Camaron, Palta y Arroz envuelto en Nori</p>
+            <p><b>018- Sake Crema</b>- Salmon, Queso Crema y Arroz envuelto en Nori</p>
+            <p><b>019- Maguro Maki</b>- Atun y Arroz envuelto en Nori</p>
+            <p><b>020- Unagi Maki</b>- Anguila y Arroz envuelto en Nori</p>
+            <p><b>021- Maki Beef</b>- Carne, Pimenton y Arroz envuelto en Nori</p>
+            <p><b>022- Tako Maki</b>- Pulpo y Arroz envuelto en Nori</p>
+            <p><b>023- Berrie Maki</b>- Frutilla o Frambuesa o Arandano y Arroz envuelto en Nori</p>
+          </div>
+          <div class="titulo-carta">Temaki <span>(cono- arrroz / nori)</span>  $3.500</div>
+          <div class="detalle-carta">
+            <p><b>024- Temaki Sake</b>- Salmon, Palta, Cebollin y Masago</p>
+            <p><b>025- Temaki Ebi</b>- Camaron, Palta, Cebollin y Masago</p>
+            <p><b>026- Temaki Kenishi</b>- Kanikama, Palta, Cebollin y Masago</p>
+            <p><b>027- Temaki Maguro</b>- Atun, Palta, Cebollin y Masago</p>
+            <p><b>028- Temaki Asahi</b>- Palmitos, Palta, Lechuga y Masago</p>
+            <p><b>029A- Temaki Ebi Tempura</b>- Camaron Ecuatoriano Frito, <br> Palta, Cebollin y Masago</p>
+            <p><b>029B- Temaki Tako</b>- Pulpo, Palta, Cebollin y Masago</p>
+            <p><b>030- Temaki Teri</b>- Pollo, Palta, Cebollin y Masago</p>
+          </div>
+        </div>
+      </div>
+      <div id="b-carta"  class="grid-carta">
+        <div class="carta" id="carta-1">
+
+          <div class="titulo-carta">California Rolls <span>(8 unidades)</span>  $3.800 <br>
+          <span>(Envuelto en sesamo, Masago o Ciboulette)</span>
+          </div>
+          <div class="detalle-carta">
+            <p><b>031- California Canichi </b>- Kanikama y Palta </p>
+            <p><b>032- California Ebi</b>- Camaron, Queso Crema y Palta </p>
+            <p><b>033- California Sake</b>- Salmon y Palta </p>
+            <p><b>034- California Teri</b>- Pollo, Queso Crema y Palta</p>
+            <p><b>035- California Ebi Tempura</b>- Camaron Frito, Queso Crema y Palta </p>
+            <p><b>036- California Asahi</b>- Palmito, Queso Crema y Palta </p>
+            <p><b>037- California Unagi</b>- Anguila y Palta</p>
+            <p><b>038- California Merkén</b>- Pollo, Queso Crema y Palta <br><em>(Envuelto en Merken)</em> </p>
+            <p><b>039- California Beef</b>- Carne Salteada, Queso Crema y Cebollin</p>
+          </div>
+            <br>
+            <br>
+          <div class="titulo-carta">Especial Rolls <span>(8 unidades)</span>  $4.000<br>
+            <span>(Envuelto en Palta)</span>
+          </div>
+          <div class="detalle-carta">
+            <p><b>040- Japon Rolls</b>- Camaron, Queso Crema y Cebollin </p>
+            <p><b>041- Kioto Rolls</b>- Camaron Ecuatoriano Frito, Queso Crema y Masago</p>
+            <p><b>042- Bocado Rolls</b>- Salmon, Queso Crema y Ciboulette</p>
+            <p><b>043- Terry Rolls</b>- Pollo, Queso Crema y Cebollin</p>
+            <p><b>044- Bife Rolls</b>- Carne Salteada, Queso Crema y Ciboulette</p>
+            <p><b>045- Tako Rolls</b>- Pulpo, Queso Crema y Masago</p>
+            <p><b>046- Unagi Rolls</b>- Anguila y Queso Crema <br><em>(Bañado en Salsa de Anguila)</em></p>
+            <p><b>047- Smoking Rolls</b>- Salmon Ahumado, Queso Crema y Cebollin</p>
+          </div>
+
+        </div>
+        <div class="carta" id="carta-2">
+          
+          <div class="titulo-carta">Especial Rolls <span>(8 unidades)</span>  $4.500<br>
+            <span>(Envuelto en Salmon)</span>
+          </div>
+          <div class="detalle-carta">
+            <p><b>048- Sapporo Rolls</b>- Camaron, Queso Crema, Palta y Cebollin</p>
+            <p><b>049- Yokahama Rolls</b>- Kanikama, Palta y Cebollin</p>
+            <p><b>050- Osaka Rolls</b>- Pulpo, Queso Crema, Palta y Salsa Spicy</p>
+            <p><b>051- Nagoya Rolls</b>- Camaron, Salmon, Queso Crema y Palta</p>
+            <p><b>052- Orion Imperial</b>- Ostion, Queso Crema y Palta <br><em>(Envuelto en Camaron )</em></p>
+          </div>
+          <div class="titulo-carta">Cheese Rolls <span>(8 unidades)</span>  $4.500<br>
+          <span>(Envuelto en Queso Crema)</span></div>
+          <div class="detalle-carta">
+            <p><b>053- Cheese Ebi</b>- Camaron, Palta y Masago</p>
+            <p><b>054- Cheese Sake</b>- Salmon, Palta y Ciboulette</p>
+            <p><b>055- Cheese Smoking</b>- Salmon Ahumado, Palta y Sesamo</p>
+            <p><b>056- Cheese Sesamo</b>- Camaron Apanado, Queso Crema y Quinoa</p>
+          </div>
+          <div class="titulo-carta">Hot Rolls <span>(8 unidades)</span>  $4.500<br>
+          <span>(Rolls Fritos)</span></div>
+          <div class="detalle-carta">
+            <p><b>057- Tori Rolls</b>- Camaron, Queso Crema y Cebollin<br><em>(Envuelto en Pollo Furay )</em></p>
+            <p><b>058- Tori Saki Rolls</b>- Salmon, Queso Crema y Cebollin <br><em>(Envuelto en Pollo Furay )</em></p>
+            <p><b>059- Futo Tempura Rolls</b>- Salmon, Camaron, Queso Crema <br> y Ciboulette <br><em>(Envuelto en fina Masa Tempura )</em></p>
+            <p><b>060- Osaka Rolls</b>- Camaron, Queso Crema y Cebollin<br><em>(Envuelto en Salmon Furay )</em></p>
+            <p><b>061- Torion Rolls</b>- Ostion Furay, Queso Crema y Ciboulette <br><em>(Envuelto en Salmon Furay )</em></p>
+            <p><b>062- Chicken Rolls</b>- Pollo Teriyaki, Queso Crema y Ciboulette <br><em>(Envuelto en Pollo Furay )</em></p>
+          </div>
+        </div>
+      </div>
+      <div id="c-carta"  class="grid-carta">
+        <div class="carta" id="carta-1">
+
+          <div class="titulo-carta">Fussion Rolls <span>(8 unidades)</span>  $5.000 <br></div>
+          <div class="detalle-carta">
+            <p><b>063- Fusion Hakone </b>- Mango, Palta y Ciboulette<br><em>(Envuelto en Queso Crema)</em> </p>
+            <p><b>064- Fusion Osaka</b>- Carne, Cebollin y Palta <br><em>(Envuelto en Queso Camembert Apanado)</em>  </p>
+            <p><b>065- Fusion Kioto</b>- Pollo, Cebollin y Champiñon <br><em>(Envuelto en Queso Camembert)</em>  </p>
+            <p><b>066- Fusion Kamakura</b>- Carne, Aceituna y Pimenton <br><em>(Envuelto en Queso Camembert)</em> </p>
+            <p><b>067- Fusion Köbe</b>- Verduras Salteada y Queso <br><em>(Envuelto en Palta)</em>  </p>
+            <p><b>068- Fusion Tokio</b>- Camaron Apanado, Queso Mozarella y Palta <br><em>(Envuelto en Salmon)</em> </p>
+            <p><b>069- Fusion Shirikawa</b>- Mango y Palta <br><em>(Envuelto en Queso Crema y Sesamo)</em> </p>
+            <p><b>070- Fusion Uji</b>- Piña, Tocino y Ciboulette <br><em>(Envuelto en Queso Crema)</em> </p>
+            <p><b>071- Fusion Sendai</b>- Ostion Apanado y Piña <br><em>(Envuelto en Queso Crema al Gratin)</em> </p>
+            <p><b>072- Fusion Tamano</b>- Camaron, Queso y Palta <br><em>(Envuelto en Almendras Tostadas)</em> </p>
+            <p><b>073- Fusion Takamatsu</b>- Salmon Apanado y Queso <br><em>(Envuelto en Mango)</em> </p>
+            <p><b>074- Fusion Futtsu</b>- Salmon y Palta <br><em>(Envuelto en Pulpo)</em> </p>
+          </div>
+
+        </div>
+        <div class="carta" id="carta-2">
+          
+          <div class="titulo-carta">Especiales <span>(8 unidades)</span>  $5.000<br></div>
+          <div class="detalle-carta">
+            <p><b>075- Ebi Imperial</b>- Salmon, Queso Crema y Palta <br><em>(Envuelto en Camaron)</em> </p>
+            <p><b>076- Cheese Rolls</b>- Camaron, Cebollin y Palta <br><em>(Cheese Apanado)</em> </p>
+            <p><b>077- Cheese Apanado</b>- Carne, Pimenton y Queso Camembert </p>
+            <p><b>078- Rainbow Rolls</b>- Camaron Apanado, Queso Crema, Palta y Cebollin <br><em>(Envuelto en Palta, Queso y Salmon)</em> </p>
+          </div>
+          <br>
+          <div class="titulo-carta">Platos Calientes<br></div>
+          <div class="detalle-carta">
+            <p><b>079- Gyosas- 5 Unidades $3.000 </b> <br><em>(Pollo - Cerdo - Camaron)</em></p>
+            <p><b>080- Ebi Furay- 5 Unidades $4.000 </b><br><em>(Camaron Apanado)</em></p>
+            <p><b>081- Ebi Tempura- $3.800</b> <br><em>(Mix de Verduras y Camarones Pasados por Batido Tempura)</em></p>
+            <p><b>082- Yaquimechi- $3.500 </b><br> <em>(Arroz Salteado con Verduras y Pollo Salteado con Soya)</em></p>
+            <p><b>083- Yaquitori- $3.500</b> <br><em>(Brochetas de Pollo Apanado con Salsa Teriyaqui)</em></p>
+            <p><b>084- Yaquisoba- $3.500 </b><br><em>(Fideos Salteados con Verduras, Pollo y Camaron)</em></p>
+            <p><b>085- Gohan Especial- $3.500 </b><br><em>(Arroz, Cebollin, Camaron y Palta)</em></p>
+          </div>
+        </div>
+      </div>
+      <div id="d-carta"  class="grid-carta">
+        <div class="carta" id="carta-1">
+
+          <div class="titulo-carta">DAM<br></div>
+          <div class="detalle-carta">
+            <p><b>086- Primer DAM- $6.500</b>- 18 Bocados<br><em>(4 Bocados Palta, 4 Bocados Ciboulette, <br> 4 Bocado Sesamo y 6 Bocados Hosomaki)</em> </p>
+            <p><b>087- Segundo DAM- $8.000</b>- 19 Bocados<br><em>(4 Bocados Palta, 4 Bocados Masago, <br> 4 Bocados Sesamo, 5 Gyosas y 2 Nigiri Ebi)</em>  </p>
+            <p><b>088- Tercer DAM- $11.000</b>- 26 Bocados <br><em>(8 Bocados Palta, 8 Bocados Sesamo, <br> 6 Bocados Hosomaki, 2 Nigiri Ebi y 2 Nigiri Sake)</em>  </p>
+            <p><b>089- Cuarto DAM- $14.000</b>- 36 Bocados <br><em>(8 Bocados Palta, 8 Bocados Sesamo, 8 Bocados <br> Ciboulette, 6 Bocados Hosomaki, 4 Gyosas y 2 Nigiri Sake )</em> </p>
+            <p><b>090- Quinto DAM- $17.000</b>- 43 Bocados <br><em>(8 Bocados Palta, 8 Bocados Sesamo, 8 Bocados <br>  Masago, 6 Bocados Hosomaki, 5 Gyosas y 8 Bocados Tori)</em>  </p>
+          </div>
+          <div class="titulo-carta">Cocktail de Sushi<br></div>
+          <div class="detalle-carta">
+            <p><b>091- 4 Ingredientes a Eleccion, Base de Arrroz <br> + Salsa en Copon- $5.000</b></p>
+          </div>
+          <div class="titulo-carta">Salsas </span>$500 <br><span>(Ponsu - Spicy - Unagi - Terillaky)</div>
+          
+
+        </div>
+        <div class="carta" id="carta-2">
+          
+          <div class="titulo-carta">Bebidas y Jugos<br></div>
+          <div class="detalle-carta">
+            <p><b>Jugos Naturales $ 2.200</b></p>
+            <p><b>Bebidas $ 1.000</b></p>
+            <p><b>Agua Mineral $ 1.000</b></p>
+            <p><b>Cafe $1.000</b></p>
+            <p><b>Té $800</b></p>
+            <p><b>Agua de Hierba $800</b></p>
+            <p><b>Té Blanco, Verde, Jasmin $1.000</b></p>
+            <p><b>Café Helado $ 2.200</b></p>
+          </div>
+          <br>
+          <div class="titulo-carta">Postres<br></div>
+          <div class="detalle-carta">
+            <p><b>Torta del Chef $ 1.800</b></p>
+            <p><b>Pie de Limon $2.200</b></p>
+            <p><b>Suspiro Limeño $2.200</b></p>
+            <p><b>Postre del Dia $1.800</b></p>
+            <p><b>Helado Tempura $2.500</b></p>
+            <p><b>Perfei de Maracuya $2.500</b></p>
+         
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div id="menu-carta">
+      <button id="btn-ant-1">Anterior</button>
+      <button id="btn-sig-1">Siguiente</button>
+    </div>
+  </main>
+  <footer>
+    <div id="separacion"></div>
+    <div class="contenido-footer">
+      <div id="contacto">
+        <h1>Contacto</h1>
+        <h4><a  href="tel:+56229049594">Telefono +562 29049594</a></h4>
+        <h4><a  href="https://api.whatsapp.com/send?phone=56990926074">WhatsApp +569 90926074</a></h4>
+        <h1>Dirección</h1>
+        <h4><a  href="https://g.page/akato-sushi">Av. Central Gonzalo Perez Llona #263, Maipú </a></h4>
+
+      </div>
+      <div id="contacto2" class="oculto">
+        <h1>Contacto</h1>
+        <h4><a  href="tel:+56229049594">Telefono <br> +562 29049594</a></h4>
+        <h4><a  href="https://api.whatsapp.com/send?phone=56990926074">WhatsApp <br> +569 90926074</a></h4>
+      </div>
+      <div id="direccion2" class="oculto">
+        <h1>Dirección</h1>
+        <h4><a  href="https://g.page/akato-sushi">Av. Central Gonzalo Perez Llona #263, Maipú </a></h4>
+      </div>
+      <div id="redes">
+        <h1>Redes Sociales</h1>
+        <a href="https://www.facebook.com/Akato-218328784900844"><i class="fab fa-facebook-square" alt="Facebook"></i></a>
+        <a href="https://www.instagram.com/akatosushi_/"><i class="fab fa-instagram-square" alt="Instagram"></i></a> 
+      </div>
+      <div id="horario">
+        <h1>Horario</h1>
+        <h4>Lunes a Jueves de 12:00 a 00:00 <br>
+          Viernes y Sabados de 12:00 a 01:00 <br>
+          Domingo de 12:00 a 23:00
+      </h4>
+      </div>
+      <div id="copy">Akato Sushi © 2020 Diseñado por Francisco Grandon</div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
